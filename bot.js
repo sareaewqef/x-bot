@@ -59,7 +59,7 @@ const Canvas = require("canvas-prebuilt")
           ctx.clip();
           ctx.drawImage(ava, 36, 21, 260, 260);
             
-          const c = client.channels.get("491211606554836992");
+          const c = client.channels.get("489048854101229569");
           c.sendFile(canvas.toBuffer());
  
 });
